@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=BIZ+UDMincho&family=Playfair+Display&family=Send+Flowers&display=swap');
+body{
+    justify-content: center;
+    min-height: 100vh;
+}
+.instagram{
+    position: relative;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    border-radius: 55px;
+    background: radial-gradient(circle at 30% 110%,#ffdb8b 0%,
+    #ee653d 25%,#d42e81 50%,#a237b6 75%,#3e5fbc 100%);
+    box-shadow: 0 15px 40px 1px rgba(0,0,0,0.3);
+}
+span{
+    display: block;
+    border: 15px solid #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 55px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+span::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 15px solid #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+span::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    border: 10px solid #fff;
+    top: 16px;
+    right: 16px;
+}
+
+h1{
+    font-family: 'Alfa Slab One';
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'BIZ UDMincho';
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+}
+
+p1{
+    font-family: 'Send Flowers';
+    font-size: 20px;
+}

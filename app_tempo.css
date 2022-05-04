@@ -24,20 +24,21 @@ body {
     height: 100vh;
 }
 
-h2, h4 {
-    margin: 5px
+h2 {
+    margin: 5px 0 18px;
+    font-size: 25px;
 }
 
 h4 {
     padding: 10px;
     font-weight: 300;
+    margin: 5px;
 }
 
 h1 {
     font-size: 80px;
-    margin: 0%;
+    margin: 0 0 8px;
     font-weight: 300;
-    padding: 10px;
 }
 
 .iphone-container {
@@ -75,12 +76,12 @@ h1 {
 .iphone-container svg {
     width: 100px;
     height: 100px;
-    margin: 20px 0 40px;
+    margin: 20px 0 20px;
 }
 
 .iphone-container .week-wheater {
     color: var(--light-grey);
-    margin-top: 60px;
+    margin-top: 28px;
     padding: 0 20px;
     text-align: left;
     display: grid;
